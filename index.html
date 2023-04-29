@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html class ="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mishka</title>
+</head>
+<body class="page__body">
+  <header class ="page-header">
+    <a class="page-header__logo">
+      <img src="img\mishka-logo-mobile.svg.svg" alt="Мишка" width="85" height="35">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle-button" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="#">Каталог товаров</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Вязание на заказ</a>
+          </li>
+         </ul>
+         <div class="main-nav__list search-list">
+          <a  class= " search-list__search" href="#">
+            <svg class="search-list__search-icon" widht="16" height="16">
+            </svg>
+             Поиск по сайту
+          </a>
+         </div>
+         <div class="main-nav__list trash-list">
+          <a  class= " search-list__trash" href="#">
+            <svg class="search-list__trash-icon" widht="16" height="16">
+            </svg>
+             Корзина: пока пуста
+          </a>
+         </div>
+      </div>
+    </nav>
+  <main class="page-main">
+     <section class="review">
+      <div class="review__wrapper">
+        <header class="review__header">
+        <h1 class="review__title">Милый штуки ручной работы для дома </h1>
+      </header>
+      <dl class="review__list">
+        <div class="review__item">
+          <dt class="stats__text">
+            Предметы интерьера
+          </dt>
+          <dd class= "review__photo">
+             <img src="img\interior.svg.svg" alt="Иконка интерьера">
+          </dd>
+        </div>
+        <div class="review__item">
+          <dt class="review__text">
+            Детские игрушки
+          </dt>
+          <dd class="review__photo">
+            <img src="img\toy-svg.svg" alt="Иконка игрушки">
+          </dd>
+        </div>
+      </div>
+
+      <section class="featured">
+        <div class="featured__wrapper">
+          <h2 class="featured__title">Вязаные корзинки</h2>
+          <b class="featured__description">Товар недели</b>
+          <p class="featured__text">Экологически чистая пряжа,
+            ручная работа. Доступны в шести расцветках, и трех размерах.
+          </p>
+          <table class="featured__table">
+            <tr>
+              <th>Цвет</th>
+              <th>«Тиффани»/серый</th>
+            </tr>
+            <tr>
+              <th>Диаметр</th>
+              <th>25 см</th>
+            </tr>
+            <tr>
+              <th>Высота</th>
+              <th>15 см</th>
+            </tr>
+          </table>
+          <img class="featured__img" src="img\triple-set.jpg" alt="Изображение корзинок" width="280" height="315">
+          <p class="featured__price">Цена: 990 руб.</p>
+          <a class="featured__button button" href="#" type="button">Заказать</a>
+        </div>
+        <img class="featured__decoration" src="img\zigzag-line.svg.svg">
+      </section>
+      <section class="about">
+        <div class="about__wrapper">
+          <h2 class="about__title">Коротко о нас:</h2>
+          <ul class="about__list">
+            <li class="about__item about__item--flower">
+              <p class="about__description">Экологически чистые материалы</p>
+            </li>
+            <li class="about__item about__item--momey">
+              <p class="about__description">Скандинавский стиль по российской цене</p>
+            </li>
+            <li class="about__item about__item--heart">
+              <p class="about__description">Увеличивает лайки на фотографиях</p>
+            </li>
+            <li class="about__item about__item--ball">
+              <p class="about__description">Связано вручную с любовью и умилением</p>
+            </li>
+            <li class="about__item about__item--rocket">
+              <p class="about__description">Поддержка отечественного производителя</p>
+            </li>
+            <li class="about__item about__item--gift">
+              <p class="about__description">Поставляется в подарочной упаковке</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__wrapper">
+          <h2 class="about__title">Отзывы</h2>
+          <a class="about__write button" href="#">Написать</a>
+          <div class="abou__list slider__list">
+            <blockquote class="about__item slider__item">
+              <div class="reviews__author-info">
+                <p class="about__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке,и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+                <cite class="about__author-name">Анастасия Красильникова @misssssiskras</cite>
+              </div>
+            </blockquote>
+            <button class="about__prev" type="button">Предыдущий отзыв</button>
+            <button class="about__next" type="button">Следущий отзыв</button>
+          </div>
+        </div>
+        <img class="featured__decoration" src="img\zigzag-line.svg.svg">
+      </section>
+      <footer class="page-footer">
+        <div class="page-footer__wrapper">
+          <div class="page-footer__contacts contacts">
+            <h2 class="contacts__title">Контакты</h2>
+            <dl class="contacts__list">
+              <div class="contacts__item">
+                <dt class="contacts__email">
+                  e-mail:
+                </dt>
+                <dd class="contacts__description">
+                  <a class="contacts__email" href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+                </dd>
+              </div>
+              <div class="contacts__item">
+                <dt class="contacts__adres">
+                  адрес:
+                </dt>
+                <dd class="contacts__description">
+                  <p class="contacts__text">Санкт-Петербург ул. Большая Конюшенная д. 19/8, офис 101</p>
+                </dd>
+              </div>
+            </div>
+              <div class="page-footer__map map">
+                <img class="map_img" src="img\map.jpg" alt="Карта">
+              </div>
+              <a class="page-footer__write button" href="#">Напишите нам</a>
+              <div class="page-footer__social social  ">
+                <b class="social-title">Давайте дружить!</b>
+                <ul class="social__list">
+                  <li class="social__item">
+                    <a class="social__link social__link-inst" href="#">Мы в Instagram</a>
+                  </li>
+                  <li class="social__item">
+                    <a class="social__link social__link-fb" href="#">Мы в Фейсбуке</a>
+                  </li>
+                  <li class="social__item">
+                    <a class="social__link social__link-twitter" href="#">Мы в твиттере</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="page-footer__copyright copyright">
+                <b class="copyright__text">Разработано</b>
+                <a class="copyright__link" href="#">Авдонин Данила</a>
+              </div>
+        </div>
+      </footer>
+  </main>
+</body>
+</html>
